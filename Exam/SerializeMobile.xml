@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<ArrayOfMobilePhone xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MobilePhone>
+    <Name>Aaaaa</Name>
+    <Campany>Sams</Campany>
+    <Price>1200</Price>
+    <Color>Red</Color>
+    <Memory>32</Memory>
+  </MobilePhone>
+  <MobilePhone>
+    <Name>Bbbbb</Name>
+    <Campany>Iphone</Campany>
+    <Price>2000</Price>
+    <Color>Gold</Color>
+    <Memory>16</Memory>
+  </MobilePhone>
+  <MobilePhone>
+    <Name>Ccccc</Name>
+    <Campany>Sams</Campany>
+    <Price>2800</Price>
+    <Color>Black</Color>
+    <Memory>1000</Memory>
+  </MobilePhone>
+</ArrayOfMobilePhone></RadioPhone>
+</ArrayOfRadioPhone>

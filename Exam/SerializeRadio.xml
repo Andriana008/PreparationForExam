@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<ArrayOfRadioPhone xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <RadioPhone>
+    <Name>Aaaaa</Name>
+    <Campany>Sams</Campany>
+    <Price>8200</Price>
+    <Radius>32</Radius>
+    <AutoAnswering>yes</AutoAnswering>
+  </RadioPhone>
+  <RadioPhone>
+    <Name>Bbbbb</Name>
+    <Campany>Iphone</Campany>
+    <Price>2880</Price>
+    <Radius>16</Radius>
+    <AutoAnswering>No</AutoAnswering>
+  </RadioPhone>
+  <RadioPhone>
+    <Name>Ccccc</Name>
+    <Campany>Sams</Campany>
+    <Price>2600</Price>
+    <Radius>10</Radius>
+    <AutoAnswering>yes</AutoAnswering>
+  </RadioPhone>
+</ArrayOfRadioPhone>

@@ -1,0 +1,16 @@
+3
+Aaaaa
+Sams
+8200
+32
+yes
+Bbbbb
+Iphone
+2880
+16
+No
+Ccccc
+Sams
+2600
+10
+yes
