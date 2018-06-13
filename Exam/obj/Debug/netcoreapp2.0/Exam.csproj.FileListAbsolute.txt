@@ -9,3 +9,14 @@
 /Users/Andriana/Desktop/C#/practice/Exam/Exam/bin/Debug/netcoreapp2.0/Exam.pdb
 /Users/Andriana/Desktop/C#/practice/Exam/Exam/obj/Debug/netcoreapp2.0/Exam.dll
 /Users/Andriana/Desktop/C#/practice/Exam/Exam/obj/Debug/netcoreapp2.0/Exam.pdb
+/Users/Andriana/Desktop/C#/practice/Exam/PreparationForExam/Exam/bin/Debug/netcoreapp2.0/Exam.deps.json
+/Users/Andriana/Desktop/C#/practice/Exam/PreparationForExam/Exam/bin/Debug/netcoreapp2.0/Exam.runtimeconfig.json
+/Users/Andriana/Desktop/C#/practice/Exam/PreparationForExam/Exam/bin/Debug/netcoreapp2.0/Exam.runtimeconfig.dev.json
+/Users/Andriana/Desktop/C#/practice/Exam/PreparationForExam/Exam/bin/Debug/netcoreapp2.0/Exam.dll
+/Users/Andriana/Desktop/C#/practice/Exam/PreparationForExam/Exam/bin/Debug/netcoreapp2.0/Exam.pdb
+/Users/Andriana/Desktop/C#/practice/Exam/PreparationForExam/Exam/obj/Debug/netcoreapp2.0/Exam.csprojResolveAssemblyReference.cache
+/Users/Andriana/Desktop/C#/practice/Exam/PreparationForExam/Exam/obj/Debug/netcoreapp2.0/Exam.csproj.CoreCompileInputs.cache
+/Users/Andriana/Desktop/C#/practice/Exam/PreparationForExam/Exam/obj/Debug/netcoreapp2.0/Exam.AssemblyInfoInputs.cache
+/Users/Andriana/Desktop/C#/practice/Exam/PreparationForExam/Exam/obj/Debug/netcoreapp2.0/Exam.AssemblyInfo.cs
+/Users/Andriana/Desktop/C#/practice/Exam/PreparationForExam/Exam/obj/Debug/netcoreapp2.0/Exam.dll
+/Users/Andriana/Desktop/C#/practice/Exam/PreparationForExam/Exam/obj/Debug/netcoreapp2.0/Exam.pdb

@@ -8,13 +8,13 @@ using System.Xml.Serialization;
 
 namespace Exam
 {
-    public class Serialize
+    public class SerializeXML
     {
         
         public static void SerializeMobileList(List<MobilePhone> lines)
         {
             XmlSerializer formatter = new XmlSerializer(typeof(List<MobilePhone>));
-            using (FileStream fs = new FileStream("/Users/Andriana/Desktop/C#/practice/Exam/Exam/SerializeMobile.xml", FileMode.Open))
+            using (FileStream fs = new FileStream("/Users/Andriana/Desktop/C#/practice/Exam/PreparationForExam/Exam/SerializeMobile.xml", FileMode.Open))
             {
                 formatter.Serialize(fs, lines);
             }
@@ -24,7 +24,7 @@ namespace Exam
         {
             XmlSerializer formatter = new XmlSerializer(typeof(List<MobilePhone>));
             List<MobilePhone> lin = null;
-            using (FileStream fs = new FileStream("/Users/Andriana/Desktop/C#/practice/Exam/Exam/SerializeMobile.xml", FileMode.Open))
+            using (FileStream fs = new FileStream("/Users/Andriana/Desktop/C#/practice/Exam/PreparationForExam/Exam/SerializeMobile.xml", FileMode.Open))
             {
                 lin = (List<MobilePhone>)formatter.Deserialize(fs);
             }
@@ -39,7 +39,7 @@ namespace Exam
         public static void SerializeRadioList(List<RadioPhone> lines)
         {
             XmlSerializer formatter = new XmlSerializer(typeof(List<RadioPhone>));
-            using (FileStream fs = new FileStream("/Users/Andriana/Desktop/C#/practice/Exam/Exam/SerializeRadio.xml", FileMode.Open))
+            using (FileStream fs = new FileStream("/Users/Andriana/Desktop/C#/practice/Exam/PreparationForExam/Exam/SerializeRadio.xml", FileMode.Open))
             {
                 formatter.Serialize(fs, lines);
             }
@@ -49,7 +49,7 @@ namespace Exam
         {
             XmlSerializer formatter = new XmlSerializer(typeof(List<RadioPhone>));
             List<RadioPhone> lin = null;
-            using (FileStream fs = new FileStream("/Users/Andriana/Desktop/C#/practice/Exam/Exam/SerializeRadio.xml", FileMode.Open))
+            using (FileStream fs = new FileStream("/Users/Andriana/Desktop/C#/practice/Exam/PreparationForExam/Exam/SerializeRadio.xml", FileMode.Open))
             {
                 lin = (List<RadioPhone>)formatter.Deserialize(fs);
             }

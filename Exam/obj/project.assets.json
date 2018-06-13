@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Andriana/Desktop/C#/practice/Exam/Exam/Exam.csproj",
+      "projectUniqueName": "/Users/Andriana/Desktop/C#/practice/Exam/PreparationForExam/Exam/Exam.csproj",
       "projectName": "Exam",
-      "projectPath": "/Users/Andriana/Desktop/C#/practice/Exam/Exam/Exam.csproj",
+      "projectPath": "/Users/Andriana/Desktop/C#/practice/Exam/PreparationForExam/Exam/Exam.csproj",
       "packagesPath": "/Users/Andriana/.nuget/packages/",
-      "outputPath": "/Users/Andriana/Desktop/C#/practice/Exam/Exam/obj",
+      "outputPath": "/Users/Andriana/Desktop/C#/practice/Exam/PreparationForExam/Exam/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

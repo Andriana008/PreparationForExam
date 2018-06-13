@@ -9,7 +9,7 @@ namespace Exam
     {
         public static void ErrorLogging(Exception ex)
         {
-            string strPath = @"/Users/Andriana/Desktop/C#/practice/Exam/Exam/Exception.txt";
+            string strPath = @"/Users/Andriana/Desktop/C#/practice/Exam/PreparationForExam/Exam/Exception.txt";
             if (!File.Exists(strPath))
             {
                 File.Create(strPath).Dispose();
@@ -27,7 +27,7 @@ namespace Exam
 
         public static void ReadError()
         {
-            string strPath = @"/Users/Andriana/Desktop/C#/practice/Exam/Exam/Exception.txt";
+            string strPath = @"/Users/Andriana/Desktop/C#/practice/Exam/PreparationForExam/Exam/Exception.txt";
             using (StreamReader sr = new StreamReader(strPath))
             {
                 string line;

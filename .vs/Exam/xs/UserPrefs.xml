@@ -1,0 +1,23 @@
+﻿<Properties StartupConfiguration="{F1FCC94D-A38B-459D-B0E3-14DD35E0841A}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Exam/SerializeJSON.cs">
+    <Files>
+      <File FileName="Exam/Task.cs" Line="130" Column="13" />
+      <File FileName="Exam/SerializeXML.cs" Line="2" Column="1" />
+      <File FileName="Exam/Result.txt" Line="1" Column="1" />
+      <File FileName="Exam/SerializeJSON.cs" Line="49" Column="134" />
+      <File FileName="Exam/Program.cs" Line="1" Column="1" />
+      <File FileName="Exam/MobilePhone.cs" Line="12" Column="21" />
+      <File FileName="Exam/Phone.cs" Line="14" Column="21" />
+      <File FileName="Exam/RadioPhone.cs" Line="9" Column="6" />
+      <File FileName="Exam/SerializeMobile.xml" Line="1" Column="1" />
+      <File FileName="Exam/SerializeRadio.xml" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Exam PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

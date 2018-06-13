@@ -5643,11 +5643,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Andriana/Desktop/C#/practice/Exam/Tests/Tests.csproj",
+      "projectUniqueName": "/Users/Andriana/Desktop/C#/practice/Exam/PreparationForExam/Tests/Tests.csproj",
       "projectName": "Tests",
-      "projectPath": "/Users/Andriana/Desktop/C#/practice/Exam/Tests/Tests.csproj",
+      "projectPath": "/Users/Andriana/Desktop/C#/practice/Exam/PreparationForExam/Tests/Tests.csproj",
       "packagesPath": "/Users/Andriana/.nuget/packages/",
-      "outputPath": "/Users/Andriana/Desktop/C#/practice/Exam/Tests/obj",
+      "outputPath": "/Users/Andriana/Desktop/C#/practice/Exam/PreparationForExam/Tests/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -5664,8 +5664,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "/Users/Andriana/Desktop/C#/practice/Exam/Exam/Exam.csproj": {
-              "projectPath": "/Users/Andriana/Desktop/C#/practice/Exam/Exam/Exam.csproj"
+            "/Users/Andriana/Desktop/C#/practice/Exam/PreparationForExam/Exam/Exam.csproj": {
+              "projectPath": "/Users/Andriana/Desktop/C#/practice/Exam/PreparationForExam/Exam/Exam.csproj"
             }
           }
         }

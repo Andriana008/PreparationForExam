@@ -4,3 +4,26 @@
 Error Message: Wrong Data
 Stack Trace:    at Exam.Program.Main(String[] args) in /Users/Andriana/Desktop/C#/practice/Exam/Exam/Program.cs:line 17
 ===========End============= 07.06.18 22:28:39
+=============Error Logging ===========
+===========Start============= 13.06.18 14:09:16
+Error Message: Could not find file '/Users/Andriana/Desktop/C#/practice/Exam/PreparationForExam/ExamRadio.txt'.
+Stack Trace:    at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path)
+   at Exam.Task.ReadRadioFromFile() in /Users/Andriana/Desktop/C#/practice/Exam/PreparationForExam/Exam/Task.cs:line 49
+   at Exam.Task.DoTask() in /Users/Andriana/Desktop/C#/practice/Exam/PreparationForExam/Exam/Task.cs:line 106
+   at Exam.Program.Main(String[] args) in /Users/Andriana/Desktop/C#/practice/Exam/PreparationForExam/Exam/Program.cs:line 11
+===========End============= 13.06.18 14:09:17
+=============Error Logging ===========
+===========Start============= 13.06.18 14:09:48
+Error Message: Could not find a part of the path '/Users/Andriana/Desktop/C#/practice/Exam/Exam/SerializeMobile.xml'.
+Stack Trace:    at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at Exam.Serialize.SerializeMobileList(List`1 lines) in /Users/Andriana/Desktop/C#/practice/Exam/PreparationForExam/Exam/Serialize.cs:line 17
+   at Exam.Task.DoTask() in /Users/Andriana/Desktop/C#/practice/Exam/PreparationForExam/Exam/Task.cs:line 127
+   at Exam.Program.Main(String[] args) in /Users/Andriana/Desktop/C#/practice/Exam/PreparationForExam/Exam/Program.cs:line 11
+===========End============= 13.06.18 14:09:48

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 
 namespace Exam
 {
@@ -34,7 +35,7 @@ namespace Exam
         public static List<MobilePhone> ReadMobileFromFile()
         {
             List<MobilePhone> mobile = new List<MobilePhone>();
-            StreamReader streamReader = new StreamReader("/Users/Andriana/Desktop/C#/practice/Exam/Exam/Mobile.txt");
+            StreamReader streamReader = new StreamReader("/Users/Andriana/Desktop/C#/practice/Exam/PreparationForExam/Exam/Mobile.txt");
             int ab = Convert.ToInt32(streamReader.ReadLine());
             for (int i = 0; i < ab; i++)
             {
@@ -45,7 +46,7 @@ namespace Exam
         public static List<RadioPhone> ReadRadioFromFile()
         {
             List<RadioPhone> radio = new List<RadioPhone>();
-            StreamReader streamReader = new StreamReader("/Users/Andriana/Desktop/C#/practice/Exam/Exam/Radio.txt");
+            StreamReader streamReader = new StreamReader("/Users/Andriana/Desktop/C#/practice/Exam/PreparationForExam/Exam/Radio.txt");
             int ab = Convert.ToInt32(streamReader.ReadLine());
             for (int i = 0; i < ab; i++)
             {
@@ -99,7 +100,7 @@ namespace Exam
         }
         public static void DoTask()
         {
-            StreamWriter writer = new StreamWriter("/Users/Andriana/Desktop/C#/practice/Exam/Exam/Result.txt");
+            StreamWriter writer = new StreamWriter("/Users/Andriana/Desktop/C#/practice/Exam/PreparationForExam/Exam/Result.txt");
 
             List<MobilePhone> mob = ReadMobileFromFile();
             List<RadioPhone> rad = ReadRadioFromFile();
@@ -108,22 +109,27 @@ namespace Exam
             phones.AddRange(rad);
 
             phones.Sort((i,j) => j.Price.CompareTo(i.Price));
+            List<Phone> sorred = phones.OrderBy(i => i.Price).ToList();
 
             writer.WriteLine("Sorted by prize :");
-            WriteInFile(phones,writer);
-            int sum = TotalPrize(phones);
-            if(sum==0)
+            WriteInFile(sorred,writer);
+            int sum1 = TotalPrize(phones);
+            int sum2 = phones.Sum(i => Convert.ToInt32(i.Price));
+            if(sum1==0||sum2==0)
             {
                 throw new Exception("wrong data");
             }
-            writer.WriteLine("Total prize : {0}", sum);
-
+            writer.WriteLine("Total prize : {0}", sum1);
+            writer.WriteLine("Total prize : {0}", sum2);
             writer.WriteLine("RadioPhones with auto answering:");
             PhonesWithAutoAnswerInFile(rad,writer);
             writer.Close();
 
-            Serialize.SerializeMobileList(mob);
-            Serialize.SerializeRadioList(rad);
+            SerializeXML.SerializeMobileList(mob);
+            SerializeXML.SerializeRadioList(rad);
+
+            SerializeJSON.SerializeMobileList(mob);
+            SerializeJSON.SerializeRadioList(rad);
         }
     }
 }

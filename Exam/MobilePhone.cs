@@ -1,11 +1,15 @@
 ﻿using System;
-
+using System.Runtime.Serialization.Json;
+using System.Runtime.Serialization;
 namespace Exam
 {
     [Serializable]
+    [DataContract]
     public class MobilePhone : Phone
     {
+        [DataMember]
         public string Color { set; get; }
+        [DataMember]
         public string Memory { set; get; }
 
         public MobilePhone(){}

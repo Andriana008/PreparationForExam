@@ -1,28 +1,29 @@
 Sorted by prize :
-Type:Exam.RadioPhone
+Type:Exam.MobilePhone
 Name:Aaaaa
 Campany:Sams
-Price:8200
-Type:Exam.RadioPhone
+Price:1200
+Type:Exam.MobilePhone
 Name:Bbbbb
 Campany:Iphone
-Price:2880
-Type:Exam.MobilePhone
-Name:Ccccc
-Campany:Sams
-Price:2800
+Price:2000
 Type:Exam.RadioPhone
 Name:Ccccc
 Campany:Sams
 Price:2600
 Type:Exam.MobilePhone
+Name:Ccccc
+Campany:Sams
+Price:2800
+Type:Exam.RadioPhone
 Name:Bbbbb
 Campany:Iphone
-Price:2000
-Type:Exam.MobilePhone
+Price:2880
+Type:Exam.RadioPhone
 Name:Aaaaa
 Campany:Sams
-Price:1200
+Price:8200
+Total prize : 19680
 Total prize : 19680
 RadioPhones with auto answering:
 Name:Aaaaa
